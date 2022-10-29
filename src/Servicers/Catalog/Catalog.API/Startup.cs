@@ -10,6 +10,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Catalog.API.Repositories;
+using Catalog.API.Data;
 
 namespace Catalog.API
 {
@@ -25,6 +27,8 @@ namespace Catalog.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<ICatalogContext, CatalogContext>();
+            services.AddScoped<IProductRepository, ProductRepository>();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
@@ -52,5 +56,7 @@ namespace Catalog.API
                 endpoints.MapControllers();
             });
         }
+
+       
     }
 }
