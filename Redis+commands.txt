@@ -23,3 +23,8 @@ set key value
 get key
 set name mehmet
 get name
+
+
+5 -- package
+Install-Package Microsoft.Extensions.Caching.StackExchangeRedis
+Update-Package -projectName Basket.API
