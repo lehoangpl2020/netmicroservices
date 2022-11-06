@@ -1,9 +1,14 @@
+
+$ docker run --name some-mongo -d mongo:tag
+
+docker run --name catalogdb_local -d mongo
+
 1
 -- Now we can open interactive terminal for mongo
 
 docker exec -it shopping-mongo /bin/bash
 
-
+docker exec -it catalogdb_local /bin/bash
 2
 -- After that, we are able to run mongo commands. 
 Let me try with 
