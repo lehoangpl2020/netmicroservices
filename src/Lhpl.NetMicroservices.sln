@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32929.386
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{AB360E5C-E1DF-4E0E-BFD5-424FD153F074}"
 EndProject
@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basket.API", "Servicers\Bas
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{8140F811-E69C-4800-AA58-73CF2659237E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discount.API", "Servicers\Discount\Discount.API\Discount.API.csproj", "{F13AF1F2-B89F-4F9D-914C-B75926816B3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.API", "Servicers\Discount\Discount.API\Discount.API.csproj", "{F13AF1F2-B89F-4F9D-914C-B75926816B3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discount.Grpc", "Servicers\Discount\Discount.Grpc\Discount.Grpc.csproj", "{985E94D0-7B9C-46B2-B5ED-349AA1D649E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{F13AF1F2-B89F-4F9D-914C-B75926816B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F13AF1F2-B89F-4F9D-914C-B75926816B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F13AF1F2-B89F-4F9D-914C-B75926816B3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{985E94D0-7B9C-46B2-B5ED-349AA1D649E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{985E94D0-7B9C-46B2-B5ED-349AA1D649E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{985E94D0-7B9C-46B2-B5ED-349AA1D649E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{985E94D0-7B9C-46B2-B5ED-349AA1D649E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +58,7 @@ Global
 		{6604C11A-EBEF-4903-AD97-8313DCC2E713} = {2DF04954-9C4B-4475-B3F5-E60317FF1298}
 		{8140F811-E69C-4800-AA58-73CF2659237E} = {AB360E5C-E1DF-4E0E-BFD5-424FD153F074}
 		{F13AF1F2-B89F-4F9D-914C-B75926816B3C} = {8140F811-E69C-4800-AA58-73CF2659237E}
+		{985E94D0-7B9C-46B2-B5ED-349AA1D649E4} = {8140F811-E69C-4800-AA58-73CF2659237E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {83581791-94A0-4A8D-9C49-9FE83B884D1C}
