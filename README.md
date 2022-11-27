@@ -36,3 +36,10 @@ Rabbit MQ
 Rabbit MQ Nuget Package
 ![image](https://user-images.githubusercontent.com/115392816/204117058-64f1c608-84b5-4bf4-abd3-53bbef0beb12.png)
 
+API Gateway
+![image](https://user-images.githubusercontent.com/115392816/204125287-91148467-e45b-4a1d-baac-04f9ff9c347f.png)
+
+BFF - Backend for Frontend
+![image](https://user-images.githubusercontent.com/115392816/204125332-8ac7363d-4005-4aa1-9ccf-e043a081cd45.png)
+
+
