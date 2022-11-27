@@ -80,8 +80,10 @@ services:
       - ASPNETCORE_ENVIRONMENT=Development
       - "CacheSettings:ConnectionString=basketdb:6379"
       - "GrpcSettings:DiscountUrl=http://discount.grpc"
+      - "EventBusSettings:HostAddress=amqp://guest:guest@rabbitmq:5672"
     depends_on:
       - basketdb
+      - rabbitmq
     ports:
       - "8001:80"
 
@@ -115,6 +117,7 @@ services:
         - "ElasticConfiguration:Uri=http://elasticsearch:9200"
     depends_on:
         - orderdb
+        - rabbitmq
     ports:
         - "8004:80"
 
