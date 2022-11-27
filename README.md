@@ -42,4 +42,6 @@ API Gateway
 BFF - Backend for Frontend
 ![image](https://user-images.githubusercontent.com/115392816/204125332-8ac7363d-4005-4aa1-9ccf-e043a081cd45.png)
 
+API Gateway
+![image](https://user-images.githubusercontent.com/115392816/204125417-dd1e51ae-d109-4d9e-bcf6-b21d94541435.png)
 
