@@ -17,3 +17,18 @@ CRUD Microservice
 
 Repository pattern
 ![image](https://user-images.githubusercontent.com/115392816/198757993-a556ac13-fcc3-419f-a959-a301dafa09c4.png)
+
+Publish Subscribe
+![image](https://user-images.githubusercontent.com/115392816/204116332-3449e969-9ac6-4667-968f-602f66c9a149.png)
+
+![image](https://user-images.githubusercontent.com/115392816/204116338-a59bb01a-0b7d-4057-9221-152603d82228.png)
+
+Microservice communication types
+![image](https://user-images.githubusercontent.com/115392816/204116436-09e4d507-1018-48fa-8a14-4041e8e00f92.png)
+
+Rabbit MQ
+![image](https://user-images.githubusercontent.com/115392816/204116554-6d796cc0-4356-4122-860f-dcab7ef940f4.png)
+
+Rabbit MQ Nuget Package
+![image](https://user-images.githubusercontent.com/115392816/204117058-64f1c608-84b5-4bf4-abd3-53bbef0beb12.png)
+
