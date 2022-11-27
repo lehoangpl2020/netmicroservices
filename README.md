@@ -26,4 +26,6 @@ Publish Subscribe
 Microservice communication types
 ![image](https://user-images.githubusercontent.com/115392816/204116436-09e4d507-1018-48fa-8a14-4041e8e00f92.png)
 
+Rabbit MQ
+![image](https://user-images.githubusercontent.com/115392816/204116554-6d796cc0-4356-4122-860f-dcab7ef940f4.png)
 
