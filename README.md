@@ -23,3 +23,7 @@ Publish Subscribe
 
 ![image](https://user-images.githubusercontent.com/115392816/204116338-a59bb01a-0b7d-4057-9221-152603d82228.png)
 
+Microservice communication types
+![image](https://user-images.githubusercontent.com/115392816/204116436-09e4d507-1018-48fa-8a14-4041e8e00f92.png)
+
+
