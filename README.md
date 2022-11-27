@@ -9,6 +9,10 @@ Start a mongo server instance
 - docker logs -f shopping-mongo
 - docker exec -it shopping-mongo /bin/bash
 
+Big picture
+![image](https://user-images.githubusercontent.com/115392816/204118464-82115812-dbd6-4afa-9513-33f0f8863bac.png)
+
+
 CATALOG API
 ![image](https://user-images.githubusercontent.com/115392816/198754742-19ec008a-fd67-4d78-82a2-c891f9bf6d2e.png)
 
