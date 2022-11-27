@@ -17,3 +17,9 @@ CRUD Microservice
 
 Repository pattern
 ![image](https://user-images.githubusercontent.com/115392816/198757993-a556ac13-fcc3-419f-a959-a301dafa09c4.png)
+
+Publish Subscribe
+![image](https://user-images.githubusercontent.com/115392816/204116332-3449e969-9ac6-4667-968f-602f66c9a149.png)
+
+![image](https://user-images.githubusercontent.com/115392816/204116338-a59bb01a-0b7d-4057-9221-152603d82228.png)
+
